@@ -4,8 +4,8 @@
  
 #
 # The line below states we will base our new image on the Latest Official Ubuntu 
-#docker pull tensorflow/tensorflow:1.15.0-py3
-FROM tensorflow/tensorflow:1.15.0-py3
+#docker pull tensorflow/tensorflow:2.4.1-gpu-jupyter
+FROM tensorflow/tensorflow:2.4.1-gpu-jupyter
 #ENV http_proxy http://172.16.117.121:3128
 #ENV https_proxy http://172.16.117.121:3128
 
